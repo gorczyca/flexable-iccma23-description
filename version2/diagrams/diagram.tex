@@ -40,7 +40,7 @@ child {node[xshift=-0.5cm]  (pxg) {$\bar{g}$}
 
 %O: second argument    
 % %O:  Arg attacking A - 1		
-\node[right = 2.8cm of ps] (pxa) {$\bar{a}$}
+\node[right = 2.9cm of ps] (pxa) {$\bar{a}$}
 child {node[xshift=0.25cm]  (pxav) {$\boldsymbol{c}$}}
 child {node[xshift=-0.25cm]  (pxaxg) {$\bar{g}$}
     child {node[xshift=0.25cm]  (pxab) {$\boldsymbol{b}$}}    
@@ -59,7 +59,7 @@ child {node[xshift=-0.25cm]  (pxaxg) {$\bar{g}$}
 
 %P: third argument    
 % %O:  Arg attacking A - 1		
-\node[right = 5cm of ps] (pxc) {$\bar{c}$}
+\node[right = 5.2cm of ps] (pxc) {$\bar{c}$}
 child {node (pxcu) {$u$}
     child {node (pxcd) {$\boldsymbol{d}$}}    
 };
@@ -77,8 +77,8 @@ child {node (pxcu) {$u$}
 \begin{pgfonlayer}{background}
     \filldraw [fill=white, fill opacity=0, dashed]
     ([shift={(-5pt,10pt)}]ps.north -| pa.west)
-    rectangle ([shift={(5pt,-5pt)}]pd2.south -| pxad2.east) ;
-    \node [scale=0.8] at ([shift={(0pt,5pt)}]ps.north -| pxad2.east) {4};
+    rectangle ([shift={(8pt,-5pt)}]pd2.south -| pxad2.east) ;
+    \node [scale=0.8] at ([shift={(3pt,5pt)}]ps.north -| pxad2.east) {4};
 \end{pgfonlayer} 
 
 
